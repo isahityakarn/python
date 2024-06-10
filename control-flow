@@ -1,0 +1,9 @@
+if condition
+syntex
+
+if condition:
+    result
+else:
+    result
+
+
