@@ -1,4 +1,4 @@
-age=67
+age=10
 
 if age>=60:
     print("old")
