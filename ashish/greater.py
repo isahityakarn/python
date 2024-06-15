@@ -1,30 +1,10 @@
-num1=5
-num2=1
-num3=5
+num1=1
+num2=6
+num3=9
 
-if num1>num2>num3:
-    print("big value is :",num1)
-elif num2>num1>num3:
-    print("big value is :",num2)
-elif num3>num2>num1:
-    print("big value is :",num3)
-elif num2>num3>num1:
-    print("big value is :",num2)
-elif num1>num3>num2:
-    print("big value is :",num1)
-elif num3>num1>num2:
-    print("big value is :",num3)
-elif num1>num2==num3:
-    print("big value is :",num1)
-elif num2>num1==num3:
-    print("big value is :",num2)
-elif num3>num1==num2:
-    print("big value is :",num3)
-elif num1==num2>num3:
-    print("big value is :",num1)
-elif num2==num3>num1:
-    print("big value is :",num2)
-elif num3==num1>num2:
-    print("big value is :",num3)
+if num1>=num2 and num1>=num3:
+    print("the biggest no. is :",num1)
+elif num2>=num3 and num2>=num1:
+    print("the biggest no. is :",num2)
 else :
-    print("all values are same")
+    print("the biggest no. is :",num3)
