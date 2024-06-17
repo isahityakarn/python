@@ -1,6 +1,6 @@
 num1=1000
 num2=698
-num3=987
+num3=9875
 num4=1254
 
 if num1>=num2 and num1>=num3 and num1>=num4:    
