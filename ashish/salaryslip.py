@@ -16,6 +16,8 @@ Net_salary=Gross_salary-PF-ESI
 print("Your net salary is   :",Net_salary)
 Annual_salary=Net_salary*12
 if Annual_salary>300000:
-    print("IT  :",(Annual_salary-300000)*10/100)
+    IT=(Annual_salary-300000)*10/100
+    print("IT  :",IT)
 else :
     print("NO IT")
+    
