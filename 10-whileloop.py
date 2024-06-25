@@ -12,15 +12,17 @@ while i <= e:
 
 #break  
 # i = 1
-# while i < 6:
+# e = int(input("Enter values to close loop"))
+# while i < e:
 #   print(i)
-#   if i == 3:
+#   if i == 5:
 #     break
 #   i += 1
 
 #contitune
 # i = 0
-# while i < 6:
+# e = int(input("Enter values to close loop"))
+# while i < e:
 #   i += 1
 #   if i == 3:
 #     continue
