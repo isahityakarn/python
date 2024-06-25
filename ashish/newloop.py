@@ -3,3 +3,7 @@ e=int(input("enter value to end loop   :"))
 while i>=e :
     print(i)
     i-=1 
+
+    if i<=e :
+        print(i)
+        i+=1
