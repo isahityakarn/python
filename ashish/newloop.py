@@ -1,9 +1,13 @@
-i=int(input("enter value to start loop :"))
-e=int(input("enter value to end loop   :"))
-while i>=e :
-    print(i)
-    i-=1 
+i=int(input("enter value to start loop : ")) 
+e=int(input("enter value to end loop   : ")) 
+if i>=e:
+    while i>=e:
+        print(i)
+        i-=1
 
-    if i<=e :
+else:
+    while i<=e:
+        if i==12:
+            break
         print(i)
         i+=1
