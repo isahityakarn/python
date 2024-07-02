@@ -4,10 +4,7 @@ if i>=e:
     while i>=e:
         print(i)
         i-=1
-
 else:
     while i<=e:
-        if i==12:
-            break
         print(i)
         i+=1
