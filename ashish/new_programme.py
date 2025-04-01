@@ -1,3 +1,7 @@
 a=int(input("a = "))
 b=int(input("b = "))
-print(b,a)
+c=a
+a=b
+b=c
+print("a=",a)
+print("b=",b)
