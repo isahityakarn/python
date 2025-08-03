@@ -4,7 +4,7 @@ for i in list:
     print(i)
 
 
-    thislist = ["apple", "banana", "cherry"]
+thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
 print(thislist)
 
